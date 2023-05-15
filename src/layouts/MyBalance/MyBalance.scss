@@ -1,0 +1,28 @@
+#my-balance {
+    background-color: var(--soft-red);
+    color: var(--very-pale-orange);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: var(--border-radius);
+
+    padding: 1rem 2rem;
+
+    * {
+        margin: 0.5rem 0rem;
+    }
+
+    .details {
+        h2 {
+            font-size: var(--font-size);
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: xx-large;
+            font-weight: 700;
+        }
+    }
+}

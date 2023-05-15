@@ -1,6 +1,10 @@
+import MyBalance from "./layouts/MyBalance/MyBalance"
+
 function App() {
   return (
-    <main id="App"></main>
+    <main id="App">
+      <MyBalance/>
+    </main>
   )
 }
 
