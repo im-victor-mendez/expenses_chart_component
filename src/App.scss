@@ -1,0 +1,12 @@
+#App {
+    background-color: var(--cream);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    padding: 1rem;
+
+    height: -webkit-fill-available;
+}
