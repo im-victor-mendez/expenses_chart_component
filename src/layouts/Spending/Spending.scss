@@ -10,6 +10,14 @@
 
     padding: 1rem 2rem;
 
+    #week {
+        display: flex;
+
+        overflow: auto;
+
+        height: 200px;
+    }
+
     .divider {
         background-color: var(--cream);
         box-shadow: var(--divider-shadow);

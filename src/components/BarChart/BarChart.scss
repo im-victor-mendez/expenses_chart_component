@@ -1,0 +1,36 @@
+.bar-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: -webkit-fill-available;
+    max-height: 200px;
+
+    * {
+        border-radius: var(--border-radius);
+    }
+
+    .amount {
+        background-color: var(--dark-brown);
+        color: var(--very-pale-orange);
+
+        padding: 1rem 0.5rem;
+
+        text-align: center;
+    }
+
+    .bar {
+        background-color: var(--soft-red);
+        width: calc(100% - 1rem);
+        max-height: calc(100% - 2rem - 2rem);
+
+        &:hover {
+            background-color: var(--cyan);
+        }
+    }
+
+    .day {
+        margin: 0;
+    }
+}
